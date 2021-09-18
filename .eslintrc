@@ -1,0 +1,12 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "react-hooks/exhaustive-deps": "off",
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid":"off",
+    "no-template-curly-in-string":"off",
+    "eqeqeq": "off",
+    "no-console": "off",
+    "valid-jsdoc": "off"
+  }
+}
