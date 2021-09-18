@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import {
     ComponentTreeWidget,
     CompositePanel,
@@ -49,12 +49,9 @@ const DesignableField = createDesignableField({
 })
 
 
-interface IAppProps {
-}
+const engine = createDesigner({})
 
-const App: React.FC<IAppProps> = (props: IAppProps) => {
-
-    const engine = useMemo(() => createDesigner(), [])
+const App = () => {
 
     return (
         <Designer engine={engine}>
