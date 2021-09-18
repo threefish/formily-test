@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
+import "antd/dist/antd.css";
+import "@formily/designable-next/dist/formily.designable.next.umd.production.css";
 
-const onSave = (xml: string) => {
-  console.log(xml);
-};
-
-ReactDOM.render(<App onSave={onSave} />, document.getElementById("root"));
+ReactDOM.render(<App/>, document.getElementById("root"));
